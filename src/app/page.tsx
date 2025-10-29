@@ -2,7 +2,7 @@
 import { useMap } from "@/hooks/useMap";
 
 export default function Home() {
-  const { map, mapContainer } = useMap();
+  const { mapContainer } = useMap();
 
   return (
     <>
